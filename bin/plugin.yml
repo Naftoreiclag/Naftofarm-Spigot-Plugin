@@ -1,0 +1,15 @@
+name: Naftofarms
+main: naftoreiclag.mc.naftofarms.PluginNF
+version: 0.9.0
+depend: [ProtocolLib]
+commands:
+    test:
+        description: Debug command
+        usage: /<command>
+permissions:
+    naftofarms.test:
+        description: Debug command
+        default: false
+    naftofarms.plant.tree.fruit.apple:
+        description: Allow planting of apple trees
+        default: true
